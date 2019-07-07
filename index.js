@@ -27,5 +27,5 @@ var deepestChild = () => {
     nextNode = mainNode.children[0]
   }
 
-  return mainNode[0]
+  return mainNode
 }
