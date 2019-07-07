@@ -3,7 +3,6 @@ var getFirstSelector = (selector) => {
 }
 
 var nestedTarget = () => {
-  document.getElementById('nested').querySelector('target')
 
   return document.querySelector('#nested .target')
 }
@@ -19,7 +18,7 @@ var increaseRankBy = (n) => {
 }
 
 var deepestChild = () => {
-  var mainNode = document.querySelectorAll('div').getElementById('grand-node')
+  var mainNode = document.querySelectorAll('div #grand-node')
   var nextNode = mainNode.children[0]
 
   while(nextNode) {
