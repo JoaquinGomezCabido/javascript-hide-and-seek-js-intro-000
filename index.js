@@ -11,6 +11,7 @@ var increaseRankBy = (n) => {
   var elements = document.querySelectorAll('.ranked-list')
 
   for(let i = 0; i < elements.length; i++) {
+    console.log(elements[i])
     elements[i] = parseInt(elements[i], 10) + n
   }
 
