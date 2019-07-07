@@ -1,4 +1,4 @@
-var gatFirstSelector = (selector) => {
+var getFirstSelector = (selector) => {
   return document.querySelector(selector)
 }
 
